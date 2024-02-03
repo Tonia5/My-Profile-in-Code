@@ -1,0 +1,72 @@
+img {
+    background-size: cover;
+    background-position: left;
+    opacity: 0.8;
+    border-radius: 2rem;
+  }
+  .Errorpage {
+    border:rgb(83, 83, 83);
+    margin: 5rem;
+    text-align: center;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Messagebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Buttons {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    align-items: center;
+    
+    
+  }
+  .Buttons .Homebutton,  .Buttons .Contactbutton, a {
+    
+    text-align: center;
+    margin-right: 2rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(145, 103, 145);
+    padding: 0.8rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2rem;
+    text-decoration-line: none;
+    border-radius: 0.8rem;    
+  }
+  .Buttons .Homebutton:hover,  .Buttons .Contactbutton:hover, a:hover{
+    color: white;
+    cursor: pointer;
+    background-color: purple;
+  }
+  .Message1{
+    margin: 1rem;
+    font-family: Hubballi;
+    color: purple;
+    font-size: 42px;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+}
+.Message2{   
+    margin: 1rem;
+    font-family: Hubballi;
+    color: rgb(83, 83, 83);
+    font-size: 36px;
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+}
+
+.Message3{ 
+    margin: 1rem;
+    color: rgb(83, 83, 83);
+    font-size: 28px;
+    font-family: Hubballi;
+    letter-spacing: 3.5px;
+   
+}
+ 
