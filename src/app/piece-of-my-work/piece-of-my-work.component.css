@@ -38,7 +38,7 @@
     
   }
 
-  .Project1Header,  .Project2Header,  .Project3Header {
+  .Project1Header,  .Project2Header,  .Project3Header, .Project4Header, .Project5Header {
     font-family: Hubballi;
     font-size: 26px;
     font-weight: 400;
@@ -48,18 +48,18 @@
     
   }
 
-  .Project2, .Project1, .Project3{
+  .Project2, .Project1, .Project3, .Project4, .Project5{
     align-items: center;
     width: 80%;
     margin: 2rem;
   }
-.Project2Images, .Project1Images, .Project3Images{
+.Project2Images, .Project1Images, .Project3Images, .Project4Images, .Project5Images{
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-  .Project2image1,.Project2image2,.Project2image3,.Project2image5,.Project2image6, .Project1image1,.Project1image2,.Project1image3,.Project1image4,.Project1image5,.Project1image6,.Project1image7,.Project3image1{
+  .Project2image1,.Project2image2,.Project2image3,.Project2image5,.Project2image6, .Project1image1,.Project1image2,.Project1image3,.Project1image4,.Project1image5,.Project1image6,.Project1image7,.Project3image1, .Project3image2, .Project4image1, .Project4image2, .Project4image3, .Project5image1, .Project5image2{
     width: 550px;
     height: 350px;
     border-radius: 2rem;
