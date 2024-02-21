@@ -1,41 +1,34 @@
 .Home {
-  height: 100vh;
+  height: 100%;
   width: 100%;
-  padding: 0;
   position: relative;
-  margin: 0;
 }
 .Backgroundimage {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  opacity: 0.6;
+  background-image: url("/assets/images/background.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+  position: relative;
 }
-.Box-image {
+.Overlay {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  width: 100%;
-}
-.Overlay {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.168);
 }
 .Home .Left-panel {
   width: 50%;
+  text-align: center;
+  color: rgb(124, 97, 97);
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  margin: 2rem;
-  z-index: 1;
-  position: absolute;
-  margin-top: 8rem;
-  height: 40rem;
-  justify-content: space-between;
 }
 .Left-panel .Headers {
   display: flex;
@@ -43,34 +36,28 @@
 }
 
 .Left-panel .Header1 {
-  box-sizing: border-box;
-  padding: 1rem;
   color: rgb(124, 97, 97);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 74px;
   font-weight: 500;
   letter-spacing: 25.6px;
-  text-align: center;
 }
 
 .Left-panel .Header2 {
   color: rgb(124, 97, 97);
-  padding: 1rem;
+  margin-top: 4rem;
   box-sizing: border-box;
-  text-align: center;
   font-family: "Architects Daughter";
   font-size: 30px;
   font-style: normal;
   font-weight: 500;
-  line-height: 2;
   letter-spacing: 12.5px;
 }
 
 .Left-panel .Paragraph {
-  padding: 2rem;
+  margin-top: 10rem;
   box-sizing: border-box;
-  text-align: center;
   color: rgb(98, 97, 97);
   font-family: Hubballi;
   font-size: 26px;
@@ -79,31 +66,24 @@
   line-height: 2;
   letter-spacing: 1px;
 }
-@media only screen and (max-width: 1050px) and (min-width: 400px) {
-  .Home .Left-panel {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: 3rem;
-    z-index: 1;
-    height: 100%;
-    justify-content: center;
-    justify-content: space-between;
-  }
 
-  .Left-panel .Headers {
+@media screen and (max-height: 40rem) {
+  .Backgroundimage {
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Home .Left-panel {
     width: 100%;
+    height: 100%;
+  }
+  .Left-panel .Header1 {
+    margin-top: 0.5rem;
+  }
+  .Left-panel .Header2 {
+    margin-top: 0.5rem;
   }
   .Left-panel .Paragraph {
-    width: 100%;
-    height: 100%;
-    font-size: 24px;
-  }
-  .Home {
-    height: 100vh;
-    width: 100%;
-    padding: 0rem;
-    position: relative;
-    margin: 0;
+    margin-top: 2rem;
   }
 }

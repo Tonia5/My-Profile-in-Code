@@ -23,11 +23,8 @@ img {
     margin-bottom: 2rem;
     text-align: center;
     align-items: center;
-    
-    
   }
   .Buttons .Homebutton,  .Buttons .Contactbutton, a {
-    
     text-align: center;
     margin-right: 2rem;
     font-size: 22px;
@@ -67,6 +64,5 @@ img {
     font-size: 28px;
     font-family: Hubballi;
     letter-spacing: 3.5px;
-   
-}
+  }
  

@@ -1,42 +1,34 @@
-.Topbar{
-    height:5rem;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
+.Topbar {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.Topbar .Logobox{
-    width: 50%;
-    height: 80%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    border-bottom: 1px solid rgb(155, 127, 127);
-   
+.Topbar .Logobox {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid rgb(155, 127, 127);
 }
 
-.Logobox .Logo{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    letter-spacing: 20px;
-    font-size: 29px;
-    color: rgb(155, 127, 127);
-    text-align: center;
-   
-   
+.Logobox .Logo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 20px;
+  font-size: 29px;
+  color: rgb(155, 127, 127);
+  text-align: center;
 }
 
 @media only screen and (max-width: 1050px) and (min-width: 700px) {
-    .Topbar .Logobox{
-        width: 80%;
-       
-    }
-
+  .Topbar .Logobox {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 699px) and (min-width: 400px) {
-    .Topbar .Logobox{
-        width: 90%;
-       
-    }
-
+  .Topbar .Logobox {
+    width: 90%;
+  }
 }
